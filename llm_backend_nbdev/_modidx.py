@@ -5,4 +5,5 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://RyanLWhite.github.io',
                 'git_url': 'https://github.com/RyanLWhite/llm-backend-nbdev',
                 'lib_path': 'llm_backend_nbdev'},
-  'syms': {'llm_backend_nbdev.core': {'llm_backend_nbdev.core.foo': ('core.html#foo', 'llm_backend_nbdev/core.py')}}}
+  'syms': { 'llm_backend_nbdev.app': {'llm_backend_nbdev.app.hello': ('app.html#hello', 'llm_backend_nbdev/app.py')},
+            'llm_backend_nbdev.core': {'llm_backend_nbdev.core.foo': ('core.html#foo', 'llm_backend_nbdev/core.py')}}}
